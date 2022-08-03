@@ -1,0 +1,10 @@
+{
+    "ignore": [
+      ".git",
+      ".gitignore",
+      "__pycache__"
+    ],
+    "pydemon": {
+      "main": "main.py"
+    }
+}
