@@ -94,4 +94,4 @@ class Pydemon():
                     task[0].cancel()
                     break
             else:
-                print('[ERROR] Enter the directory where the project is located with pydemon.json.\nExemple pydemon --exec /root/project/')
+                print('[ERROR] Enter the directory where the project is located with pydemon.json.')

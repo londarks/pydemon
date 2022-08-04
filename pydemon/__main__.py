@@ -1,7 +1,7 @@
 from main import Pydemon
 import argparse
 import asyncio
-
+import os
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -14,6 +14,6 @@ if __name__ == '__main__':
     if args.create == True:
         print('create by Londarks')
     if args.version == False and args.create == False:
-        server = Pydemon(args.exec)
+        server = Pydemon(os.getcwd())
         loop = asyncio.get_event_loop()
         loop.run_until_complete(server.main())
